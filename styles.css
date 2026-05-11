@@ -784,6 +784,80 @@ a {
   font-size: 13px;
 }
 
+/* TIMETABLE (SCHOOL STYLE) */
+.timetable-wrapper {
+  overflow-x: auto;
+  margin: 20px 0;
+  padding-bottom: 10px;
+}
+
+.timetable {
+  display: grid;
+  grid-template-columns: 80px repeat(5, minmax(130px, 1fr));
+  gap: 10px;
+  min-width: 750px;
+}
+
+.tt-head {
+  text-align: center;
+  font-weight: bold;
+  color: var(--muted);
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.tt-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted-2);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 10px 0;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.tt-slot {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.tt-slot:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+}
+
+.tt-slot--prep { background: rgba(71, 215, 255, 0.08); border-color: rgba(71, 215, 255, 0.25); }
+.tt-slot--brief { background: rgba(124, 92, 255, 0.12); border-color: rgba(124, 92, 255, 0.25); }
+.tt-slot--work { background: rgba(255, 174, 87, 0.08); border-color: rgba(255, 174, 87, 0.25); }
+.tt-slot--break { background: color-mix(in oklab, var(--panel) 60%, transparent); border: 1px dashed var(--border); }
+
+.tt-title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  color: var(--text);
+}
+
+.tt-desc {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.span-5 {
+  grid-column: 2 / -1;
+}
+
 @media (min-width: 880px) {
   .nav {
     display: inline-flex;

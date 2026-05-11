@@ -315,28 +315,52 @@
 	        <div class="container">
 	          <h2 class="h2">Tâches &amp; Journée Type</h2>
             
-            <div class="card" style="margin-bottom: 24px;">
-              <h3 class="h3">Planning d'une journée type</h3>
-              <div class="timeline" aria-label="Planning de la journée">
-                <div class="timeline__item">
-                  <div class="timeline__dot" aria-hidden="true"></div>
-                  <p style="margin: 0;"><strong>07h00 - 08h00 :</strong> Consultation du planning sur le téléphone</p>
-                </div>
-                <div class="timeline__item">
-                  <div class="timeline__dot" aria-hidden="true"></div>
-                  <p style="margin: 0;"><strong>08h00 - 09h00 :</strong> Arrivée au bureau &amp; Briefing d'équipe</p>
-                </div>
-                <div class="timeline__item">
-                  <div class="timeline__dot" aria-hidden="true"></div>
-                  <p style="margin: 0;"><strong>09h00 - 12h00 :</strong> Interventions sur le terrain</p>
-                </div>
-                <div class="timeline__item">
-                  <div class="timeline__dot" aria-hidden="true" style="background: var(--muted-2); box-shadow: none;"></div>
-                  <p style="margin: 0;"><strong>12h00 - 13h30 :</strong> Pause déjeuner</p>
-                </div>
-                <div class="timeline__item">
-                  <div class="timeline__dot" aria-hidden="true"></div>
-                  <p style="margin: 0;"><strong>13h30 - 17h00 :</strong> Reprise des interventions et fin de journée</p>
+            <div class="card" style="margin-bottom: 30px; padding: 24px;">
+              <h3 class="h3" style="margin-bottom: 20px;">Planning de la Semaine</h3>
+              
+              <div class="timetable-wrapper">
+                <div class="timetable">
+                  <!-- Header -->
+                  <div></div>
+                  <div class="tt-head">Lundi</div>
+                  <div class="tt-head">Mardi</div>
+                  <div class="tt-head">Mercredi</div>
+                  <div class="tt-head">Jeudi</div>
+                  <div class="tt-head">Vendredi</div>
+
+                  <!-- 07:00 - 08:00 -->
+                  <div class="tt-time">07h00<br>|<br>08h00</div>
+                  <div class="tt-slot tt-slot--prep span-5">
+                    <span class="tt-title">Consultation du planning</span>
+                    <span class="tt-desc">Vérification sur téléphone</span>
+                  </div>
+
+                  <!-- 08:00 - 09:00 -->
+                  <div class="tt-time">08h00<br>|<br>09h00</div>
+                  <div class="tt-slot tt-slot--brief span-5">
+                    <span class="tt-title">Arrivée &amp; Briefing</span>
+                    <span class="tt-desc">Réunion d'équipe au bureau</span>
+                  </div>
+
+                  <!-- 09:00 - 12:00 -->
+                  <div class="tt-time">09h00<br>|<br>12h00</div>
+                  <div class="tt-slot tt-slot--work span-5">
+                    <span class="tt-title">Interventions Terrain</span>
+                    <span class="tt-desc">Raccordement, SAV, Fibre/Cuivre</span>
+                  </div>
+
+                  <!-- 12:00 - 13:30 -->
+                  <div class="tt-time">12h00<br>|<br>13h30</div>
+                  <div class="tt-slot tt-slot--break span-5">
+                    <span class="tt-title">Pause déjeuner</span>
+                  </div>
+
+                  <!-- 13:30 - 17:00 -->
+                  <div class="tt-time">13h30<br>|<br>17h00</div>
+                  <div class="tt-slot tt-slot--work span-5">
+                    <span class="tt-title">Interventions Terrain</span>
+                    <span class="tt-desc">Reprise des activités &amp; fin de journée</span>
+                  </div>
                 </div>
               </div>
             </div>
