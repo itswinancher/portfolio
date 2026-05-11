@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio de Maxime Martin Civet — technicien fibre & cuivre (ORANGE, Bouches-du-Rhône)"
+    />
+    <title>Portfolio | Maxime Martin Civet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#accueil">Aller au contenu</a>
+
+    <header class="header" data-header>
+      <div class="container header__inner">
+        <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+          <img class="brand__logo" src="assets/tdc-logo.png" alt="Logo TDC" />
+          <span class="brand__text">Portfolio</span>
+        </a>
+
+        <nav class="nav" aria-label="Navigation principale" data-nav>
+          <a class="nav__link" href="#accueil">Accueil</a>
+          <a class="nav__link" href="#presentation">Présentation</a>
+          <a class="nav__link" href="#entreprise">Entreprise</a>
+          <a class="nav__link" href="#taches">Tâches</a>
+          <a class="nav__link" href="#projets">Projets</a>
+          <a class="nav__link" href="#veille">Veille techno</a>
+        </nav>
+
+        <div class="header__actions">
+          <button class="icon-btn" type="button" data-theme-toggle aria-label="Changer de thème">
+            <span class="icon" aria-hidden="true">◐</span>
+          </button>
+          <button class="icon-btn icon-btn--menu" type="button" data-menu-toggle aria-label="Ouvrir le menu">
+            <span class="icon" aria-hidden="true">≡</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu" data-mobile-menu>
+        <div class="container mobile-menu__inner">
+          <a class="mobile-menu__link" href="#accueil">Accueil</a>
+          <a class="mobile-menu__link" href="#presentation">Présentation</a>
+          <a class="mobile-menu__link" href="#entreprise">Entreprise</a>
+          <a class="mobile-menu__link" href="#taches">Tâches</a>
+          <a class="mobile-menu__link" href="#projets">Projets</a>
+          <a class="mobile-menu__link" href="#veille">Veille techno</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="accueil" class="section hero">
+        <div class="container hero__grid">
+          <div>
+            <div class="hero-strip" aria-label="Entreprise et formation">
+              <span class="hero-strip__item">
+                <img class="logo logo--inline-orange" src="assets/orange-logo.png" alt="Logo Orange" />
+                ORANGE
+              </span>
+              <span class="hero-strip__item">
+                <img class="logo logo--inline-m2s" src="assets/m2s-logo.jpeg" alt="Logo M2S formation" />
+                Formation M2S
+              </span>
+            </div>
+            <h1 class="h1">
+              Maxime Martin Civet
+              <span class="muted">— Technicien fibre &amp; cuivre dans les Bouches-du-Rhône, équipe Berre Camargue.</span>
+            </h1>
+          </div>
+          <aside class="hero-card" role="note" aria-label="Carte de présentation">
+            <div class="hero-card__top">
+              <div class="avatar" aria-hidden="true">MM</div>
+              <div>
+                <p class="hero-card__name">Maxime Martin Civet</p>
+                <p class="hero-card__role">Technicien fibre &amp; cuivre</p>
+              </div>
+            </div>
+            <div class="hero-card__badges" aria-label="Environnement professionnel">
+              <span class="hero-pill">
+                <img class="logo logo--inline-orange" src="assets/orange-logo.png" alt="Logo Orange" />
+                ORANGE
+              </span>
+              <span class="hero-pill">
+                <img class="logo logo--inline-m2s" src="assets/m2s-logo.jpeg" alt="Logo M2S formation" />
+                M2S
+              </span>
+            </div>
+            <dl class="kv">
+              <div class="kv__row">
+                <dt>Zone</dt>
+                <dd>Bouches-du-Rhône (13)</dd>
+              </div>
+              <div class="kv__row">
+                <dt>Spécialité</dt>
+                <dd>SAV fibre, cuivre et téléphonie IP</dd>
+              </div>
+              <div class="kv__row">
+                <dt>Activité</dt>
+                <dd>SAV cuivre, fibre, installation et téléphonie IP</dd>
+              </div>
+              <div class="kv__row">
+                <dt>Formation</dt>
+                <dd>SIO</dd>
+              </div>
+            </dl>
+            <p class="hero-card__hint">Profil terrain orienté qualité, diagnostic et accompagnement client.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="presentation" class="section">
+        <div class="container">
+          <h2 class="h2">Présentation</h2>
+          <div class="grid grid--2">
+            <div class="card">
+              <h3 class="h3">Profil</h3>
+              <p>
+                Technicien orienté terrain, j’interviens sur la mise en service, la maintenance et la modernisation des
+                réseaux d’accès. Je combine rigueur de diagnostic, sens du
+                client et respect des procédures qualité.
+              </p>
+              <ul class="list">
+                <li>Diagnostic et résolution d’incidents (priorité sécurité / continuité)</li>
+                <li>Interventions fibre &amp; cuivre (raccordement, remise en service)</li>
+                <li>En formation à M2S</li>
+                <li>Documentation d’intervention et remontées qualité</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3 class="h3">Compétences</h3>
+              <div class="skills">
+                <div class="skill">
+                  <p class="skill__label">Fibre optique</p>
+                  <p class="skill__desc">Pose PTO, raccordement, soudure, tests (VFL/OLTS/OTDR selon contexte)</p>
+                </div>
+                <div class="skill">
+                  <p class="skill__label">Réseaux IP</p>
+                  <p class="skill__desc">Adressage, NAT, QoS de base, Wi‑Fi</p>
+                </div>
+                <div class="skill">
+                  <p class="skill__label">Mobile &amp; IoT</p>
+                  <p class="skill__desc">Modules radio, SIM, APN, supervision et diagnostic “connecté”</p>
+                </div>
+              </div>
+              <a class="link" href="#taches">Voir les tâches →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+	      <section id="entreprise" class="section section--alt">
+	          <div class="container">
+	            <h2 class="h2">Entreprise</h2>
+	            <div class="grid grid--2">
+              <div class="card">
+                <h3 class="h3">Contexte</h3>
+                <p>
+                  ORANGE et l’écosystème télécom se concentrent sur la fibre (fixe) et la 4G/5G (mobile). En parallèle,
+                  l’arrêt progressif du cuivre (ADSL/RTC) et la fin de la 2G/3G accélèrent les migrations et les
+                  remplacements d’équipements.
+                </p>
+                  <p class="subtext">
+                    J’interviens au quotidien sur le raccordement client, le SAV fibre et cuivre, la téléphonie IP et les
+                    migrations cuivre → fibre.
+                  </p>
+                  <p class="subtext">
+                    ORANGE est l’un des principaux opérateurs télécoms au niveau mondial, avec une présence internationale
+                    et environ 124 100 employés dans le monde, dont environ 68 000 en France.
+                  </p>
+                <dl class="kv">
+                  <div class="kv__row">
+                    <dt>Entreprise</dt>
+                    <dd class="company-dd">
+                      <img class="logo logo--inline-orange" src="assets/orange-logo.png" alt="Logo Orange" />
+	                      <span>ORANGE</span>
+	                    </dd>
+	                  </div>
+                  <div class="kv__row">
+                    <dt>Équipe</dt>
+                    <dd>Berre Camargue</dd>
+                  </div>
+                  <div class="kv__row">
+                    <dt>Effectif</dt>
+                    <dd>Environ 124 100 employés dans le monde</dd>
+                  </div>
+                  <div class="kv__row">
+                    <dt>Domaines</dt>
+                    <dd>Fibre, cuivre, IP (selon intervention)</dd>
+                  </div>
+	                  <div class="kv__row">
+	                    <dt>Enjeux</dt>
+	                    <dd>Qualité, délais, sécurité, satisfaction client</dd>
+	                  </div>
+	                  <div class="kv__row">
+	                    <dt>Activité</dt>
+	                    <dd>SAV cuivre, fibre, installation et téléphonie IP</dd>
+	                  </div>
+	                </dl>
+	              </div>
+
+              <div class="card">
+                <h3 class="h3">Valeur ajoutée</h3>
+                <div class="tiles">
+                  <div class="tile">
+                    <p class="tile__title">Diagnostic rapide</p>
+                    <p class="tile__desc">Prioriser, isoler la cause, proposer une solution claire</p>
+                  </div>
+                  <div class="tile">
+                    <p class="tile__title">Approche “modernisation”</p>
+                    <p class="tile__desc">Accompagner la migration cuivre / 2G vers fibre / 4G</p>
+                  </div>
+                  <div class="tile">
+                    <p class="tile__title">Relation client</p>
+                    <p class="tile__desc">Pédagogie, conseil, transparence sur les délais et le périmètre</p>
+                  </div>
+                </div>
+                  <a class="link" href="#veille">Pourquoi ces changements ? →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+	      <section id="taches" class="section">
+	        <div class="container">
+	          <h2 class="h2">Tâches</h2>
+	          <p class="sub">
+	            J’interviens au quotidien sur le raccordement client, le SAV fibre et cuivre, la téléphonie IP et les
+	            migrations cuivre → fibre.
+	          </p>
+
+          <div class="grid grid--3">
+            <article class="card card--tight">
+              <h3 class="h3">Raccordement client — migration ADSL → fibre</h3>
+              <ul class="list list--compact">
+                <li>Organisation de l’intervention et préparation du cheminement</li>
+                <li>Pose PTO, raccordement, tests et remise en service</li>
+                <li>Explication au client, réduction d’incidents et débit stabilisé</li>
+                <li>Outils : VFL / mesure, procédures qualité</li>
+              </ul>
+            </article>
+
+            <article class="card card--tight">
+              <h3 class="h3">Installation &amp; maintenance fibre</h3>
+              <ul class="list list--compact">
+                <li>Raccordement PBO / immeuble / pavillon</li>
+                <li>Soudure, protection, repérage, nettoyage</li>
+                <li>Contrôles (VFL, mesure, tolérances)</li>
+              </ul>
+            </article>
+
+            <article class="card card--tight">
+              <h3 class="h3">SAV fibre, cuivre &amp; téléphonie IP</h3>
+              <ul class="list list--compact">
+                <li>Diagnostic d’incidents et remise en service</li>
+                <li>Vérifications accès, équipements et continuité de service</li>
+                <li>Compte-rendu d’intervention et respect des procédures qualité</li>
+              </ul>
+            </article>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="projets" class="section section--alt">
+        <div class="container">
+          <h2 class="h2">Projets</h2>
+          <p class="sub">Exemples de projets (issus de mon expérience) — à compléter avec chiffres et preuves.</p>
+
+          <div class="grid grid--2">
+            <article class="project">
+              <div class="project__badge">Organisation</div>
+              <h3 class="h3">Outil Excel — simplification des comptes‑rendus “tournée PM”</h3>
+              <p class="project__desc">
+                Création d’un fichier Excel pour standardiser et accélérer la rédaction des comptes‑rendus lors des
+                tournées PM (Point de Mutualisation) : champs guidés, format clair, informations complètes.
+              </p>
+              <ul class="meta">
+                <li><span>Résultat</span> gain de temps + compte‑rendus plus homogènes</li>
+                <li><span>Focus</span> qualité, traçabilité, lisibilité</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="veille" class="section">
+        <div class="container">
+          <h2 class="h2">Veille techno</h2>
+
+          <div class="grid grid--3">
+            <article class="card card--tight">
+              <h3 class="h3">Repère cuivre</h3>
+              <ul class="list list--compact">
+                <li><strong>3,35 millions</strong> d’abonnements DSL fin décembre 2025</li>
+                <li>Le cuivre reste encore présent malgré l’accélération vers la fibre</li>
+              </ul>
+            </article>
+
+            <article class="card card--tight">
+              <h3 class="h3">Repère passage fibre</h3>
+              <ul class="list list--compact">
+                <li><strong>3,3 millions</strong> de locaux restaient à rendre raccordables au 30 juin 2025</li>
+                <li>Les cas de génie civil expliquent une partie des délais de migration</li>
+                <li><strong>900 000</strong> locaux étaient concernés par une étape d’extinction cuivre le 27 janvier 2026</li>
+              </ul>
+            </article>
+
+            <article class="card card--tight">
+              <h3 class="h3">Repère 2G / 3G</h3>
+              <ul class="list list--compact">
+                <li><strong>2,4 millions</strong> de cartes SIM (voix/SMS/data) encore en terminaux 2G/3G à fin 2025</li>
+                <li><strong>2,8 millions</strong> de cartes SIM M2M encore en 2G/3G (alarmes, ascenseurs, téléassistance…)</li>
+              </ul>
+            </article>
+          </div>
+
+          <p class="note">
+            Données France métropolitaine (Arcep, publications mises à jour en mars/avril 2026 + communiqué Gouvernement du 27 janvier 2026).
+          </p>
+
+          <div class="veille-grid">
+            <article class="card">
+              <h3 class="h3">1) Fin du réseau cuivre (ADSL / RTC)</h3>
+              <div class="pill-row" aria-label="Calendrier cuivre">
+                <span class="pill">Objectif : 100 % fibre d’ici 2030</span>
+                <span class="pill">Fermeture progressive en cours</span>
+              </div>
+              <div class="oral-cues">
+                <p>Pourquoi le cuivre disparaît ?</p>
+                <p>Quel impact pour les clients ?</p>
+                <p>Pourquoi le passage en fibre est parfois compliqué ?</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3 class="h3">2) Fin de la 2G (GSM)</h3>
+              <div class="pill-row" aria-label="Calendrier 2G">
+                <span class="pill">Début : mars 2026</span>
+                <span class="pill">Fin complète : fin 2026</span>
+              </div>
+              <div class="oral-cues">
+                <p>Quels équipements sont encore en 2G ?</p>
+                <p>Quels risques si rien n’est remplacé ?</p>
+                <p>Quel impact pour les interventions terrain ?</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="veille-grid">
+            <article class="card">
+              <h3 class="h3">3) Fin de la 3G</h3>
+              <div class="pill-row" aria-label="Calendrier 3G">
+                <span class="pill">Arrêt prévu : fin 2028</span>
+              </div>
+              <div class="oral-cues">
+                <p>Pourquoi la 3G s’arrête elle aussi ?</p>
+                <p>Quels appareils devront évoluer ?</p>
+              </div>
+            </article>
+
+            <article class="card card--wide">
+              <h3 class="h3">4) Stratégie globale opérateurs (ex. Orange)</h3>
+              <div class="timeline" aria-label="Transition globale">
+                <div class="timeline__item">
+                  <div class="timeline__dot" aria-hidden="true"></div>
+                  <p><strong>Fixe :</strong> cuivre → fibre</p>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__dot" aria-hidden="true"></div>
+                  <p><strong>Mobile :</strong> ancien réseau → réseau moderne</p>
+                </div>
+              </div>
+              <div class="oral-cues">
+                <p>Vers quoi convergent tous les réseaux ?</p>
+                <p>Pourquoi les opérateurs arrêtent les anciens réseaux ?</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="card">
+            <h3 class="h3">5) Ce que ça change pour un technicien</h3>
+            <div class="compare">
+              <div class="compare__col">
+                <p class="compare__title">Avant</p>
+                <ul class="list list--compact">
+                  <li>Cuivre (ADSL, RTC)</li>
+                  <li>Dépannage ligne</li>
+                  <li>Téléphone classique</li>
+                </ul>
+              </div>
+              <div class="compare__col">
+                <p class="compare__title">Maintenant (2026)</p>
+                <ul class="list list--compact">
+                  <li>Fibre optique</li>
+                  <li>Réseaux IP</li>
+                  <li>Équipements connectés (IoT)</li>
+                  <li>Mobile moderne</li>
+                </ul>
+              </div>
+            </div>
+            <div class="oral-cues">
+              <p>Comment le métier évolue-t-il ?</p>
+              <p>Quelles compétences deviennent essentielles ?</p>
+              <p>Qu’est-ce que ça change dans le quotidien d’un technicien ?</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__title">Contact</p>
+        <p class="footer__text">
+          Email : <a class="link" href="mailto:maxime.martincivet@m2sformation.com">maxime.martincivet@m2sformation.com</a> 
+          
+        </p>
+        <p class="footer__fine">
+          © <span data-year></span> Maxime Martin Civet
+        </p>
+      </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
