@@ -1,21 +1,3 @@
-const storageKey = "portfolio_theme";
-
-function getInitialTheme() {
-  const stored = window.localStorage.getItem(storageKey);
-  if (stored === "light" || stored === "dark") return stored;
-  return window.matchMedia?.("(prefers-color-scheme: light)")?.matches ? "light" : "dark";
-}
-
-function setTheme(theme) {
-  document.documentElement.setAttribute("data-theme", theme);
-  window.localStorage.setItem(storageKey, theme);
-}
-
-function toggleTheme() {
-  const current = document.documentElement.getAttribute("data-theme") || "dark";
-  setTheme(current === "dark" ? "light" : "dark");
-}
-
 function setYear() {
   const node = document.querySelector("[data-year]");
   if (node) node.textContent = String(new Date().getFullYear());
@@ -84,11 +66,6 @@ function setupActiveNav() {
 }
 
 function main() {
-  setTheme(getInitialTheme());
-
-  const themeToggle = document.querySelector("[data-theme-toggle]");
-  themeToggle?.addEventListener("click", toggleTheme);
-
   setYear();
   setupMobileMenu();
   setupActiveNav();
