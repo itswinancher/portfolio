@@ -6,7 +6,7 @@ Bienvenue sur le dépôt de mon portfolio professionnel. Ce projet statique, mod
 
 ## 🚀 À propos
 
-Ce portfolio a été conçu pour être rapide, accessible et esthétiquement riche, avec une gestion fluide du thème sombre/clair et un design "link-in-bio" intégré.
+Ce portfolio a été conçu pour être rapide, accessible et esthétiquement riche, proposant un design "link-in-bio" intégré et optimisé avec un mode sombre élégant.
 
 Il met particulièrement en valeur ma mission en tant que **Fondateur et Architecte de l'association TUTODECODE** et du projet logiciel **[T2DECODE](https://github.com/TUTODECODE-FR/T2DECODE)**, une plateforme éducative (GPLv3) dédiée à l'apprentissage de la cybersécurité avec une approche stricte "Privacy by Design" (100% hors-ligne, assistant IA local).
 
@@ -22,8 +22,8 @@ Il met particulièrement en valeur ma mission en tant que **Fondateur et Archite
 
 Pour garantir des performances optimales et une maintenance aisée, ce projet n'utilise pas de frameworks lourds :
 - **HTML5** (Structure sémantique et claire)
-- **CSS3 Vanilla** (Variables CSS modernes, Flexbox, CSS Grid, mode sombre/clair natif)
-- **JavaScript Vanilla** (Gestion interactive du menu mobile et bascule des thèmes)
+- **CSS3 Vanilla** (Variables CSS modernes, Flexbox, CSS Grid, design sombre natif)
+- **JavaScript Vanilla** (Gestion interactive du menu mobile)
 
 ## 💻 Utilisation en local
 
@@ -42,6 +42,7 @@ Le site est totalement statique. Aucun serveur de développement n'est requis.
 
 ## 🤝 Me retrouver sur le web
 
+- [App Store T2DECODE](https://apps.apple.com/us/app/t2decode-plateforme/id6762523276?mt=12)
 - [Plateforme TUTODECODE](https://tutodecode.org)
 - [Code source T2DECODE](https://github.com/TUTODECODE-FR/T2DECODE)
 - [LinkedIn](https://www.linkedin.com/in/maxime-martin-civet/?originalSubdomain=fr)
