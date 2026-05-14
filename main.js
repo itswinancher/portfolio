@@ -24,9 +24,24 @@ function setupMobileMenu() {
     else open();
   });
 
-  mobileMenu.addEventListener("click", (event) => {
+  // Fermer le menu mobile lors du clic sur un lien ou sur le logo
+  document.addEventListener("click", (event) => {
     const target = event.target;
-    if (target instanceof HTMLAnchorElement) close();
+    const isLink = target.closest("a");
+    const isMobileMenuOpen = mobileMenu.getAttribute("data-open") === "true";
+    
+    if (isLink && isLink.hash) {
+      // Optionnel: mise à jour immédiate de l'état actif lors du clic
+      const links = document.querySelectorAll(".nav__link");
+      links.forEach(l => {
+        if (l.getAttribute("href") === isLink.hash) l.setAttribute("aria-current", "page");
+        else l.removeAttribute("aria-current");
+      });
+    }
+
+    if (isMobileMenuOpen && isLink) {
+      close();
+    }
   });
 
   window.addEventListener("keydown", (event) => {
@@ -54,12 +69,13 @@ function setupActiveNav() {
     (entries) => {
       const visible = entries
         .filter((e) => e.isIntersecting)
-        .sort((a, b) => (b.intersectionRatio || 0) - (a.intersectionRatio || 0))[0];
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
 
-      if (!visible || !(visible.target instanceof HTMLElement)) return;
-      setCurrent(visible.target.id);
+      if (visible) {
+        setCurrent(visible.target.id);
+      }
     },
-    { rootMargin: "-30% 0px -60% 0px", threshold: [0.1, 0.2, 0.35, 0.5] },
+    { rootMargin: "-10% 0px -80% 0px", threshold: [0, 0.1] },
   );
 
   for (const section of sections) observer.observe(section);
