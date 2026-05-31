@@ -42,11 +42,31 @@ Le site est totalement statique. Aucun serveur de développement n'est requis.
 
 ## 🤝 Me retrouver sur le web
 
-- [App Store T2DECODE](https://apps.apple.com/us/app/t2decode-plateforme/id6762523276?mt=12)
-- [Plateforme TUTODECODE](https://tutodecode.org)
-- [Code source T2DECODE](https://github.com/TUTODECODE-FR/T2DECODE)
+### Profils & Réseaux Professionnels
 - [LinkedIn](https://www.linkedin.com/in/maxime-martin-civet/?originalSubdomain=fr)
-- [Comptoir du Libre](https://comptoir-du-libre.org/en/softwares/876)
+- [GitHub Personnel (@Maxime-martin-civet)](https://github.com/Maxime-martin-civet)
+- [GitHub Personnel (@itswinancher)](https://github.com/itswinancher)
+
+### Projet T2DECODE & TUTODECODE
+- [Plateforme TUTODECODE](https://tutodecode.org)
+- [GitHub TUTODECODE-FR (Organisation)](https://github.com/TUTODECODE-FR)
+- [Code source T2DECODE](https://github.com/TUTODECODE-FR/T2DECODE)
+- [App Store T2DECODE (macOS)](https://apps.apple.com/us/app/t2decode-plateforme/id6762523276?mt=12)
+
+### Publications & Forums
+- [Article Dev.to : Genèse de T2DECODE](https://dev.to/itswinancher/pourquoi-jai-cree-t2decode-lapprentissage-technique-sans-dependre-du-cloud-31d0)
+- [Journal du hacker : Publication T2DECODE](https://www.journalduhacker.net/s/xa0zte/t2decode_plateforme_dapprentissage_it)
+- [Zeste de Savoir : Présentation TUTODECODE](https://zestedesavoir.com/forums/sujet/18295/presentation-tutodecode-une-association-pour-lapprentissage-de-linformatique-souveraine/?page=1)
+- [YouTube TUTODECODE](https://www.youtube.com/@tutodecode)
+
+### Annuaires Open Source & Communauté
+- [Comptoir du Libre](https://comptoir-du-libre.org/fr/softwares/876)
+- [FramaLibre](https://framalibre.org/notices/t2decode.html)
+- [OpenHub](https://openhub.net/accounts/itswinancher)
+- [SourceForge](https://sourceforge.net/projects/t2decode/)
+- [Open Source Security Foundation (Best Practices)](https://www.bestpractices.dev/en/projects/12999/passing)
+- [Itch.io](https://winancher.itch.io)
+- [JeVeuxAider (Bénévolat)](https://www.jeveuxaider.gouv.fr/missions-benevolat/104030/benevolat-tutodecode)
 
 ---
 *Fait avec passion pour l'apprentissage et le partage des connaissances techniques.*
