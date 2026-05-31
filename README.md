@@ -70,3 +70,5 @@ Le site est totalement statique. Aucun serveur de développement n'est requis.
 
 ---
 *Fait avec passion pour l'apprentissage et le partage des connaissances techniques.*
+
+<!-- achievements unlocked -->
